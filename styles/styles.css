@@ -1,14 +1,49 @@
+
+
+
+
 /* Header css */
 
+header {
+    background-color: lightgreen;
+    color: black;
+    display: grid;
+    grid-template-columns: 150px auto;
+    opacity: .8;
+}
+
+nav a {
+    text-align: center;
+    justify-items: center;
+    color: black;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.logo {
+    width: 140px;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
+/* hero css */
 
 
 /* body css */
 
-
-
+.hero_img {
+    width: 100%;
+}
 
 
 
