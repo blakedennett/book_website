@@ -15,7 +15,7 @@ header {
 .logo {
     width: 140px;
     height: 100%;
-    padding: none;
+    padding: 0;
 }
 
 nav a {
@@ -42,8 +42,8 @@ nav {
 
 .hero_area {
     display: grid;
-    grid-template-rows: 10;
-    grid-template-columns: 1;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: 1fr;
 }
 
 .hero_img {
