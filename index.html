@@ -20,10 +20,36 @@
             <a href="site-plan.html">Site Plan</a>
         </nav>
     </header>
-    <section class="hero_area">
-        <img class="hero_img" src="images/ReadingHeroImg.jpg" alt="Book Hero Image">
-        <h2 class="title">Best Book Central</h2>
-    </section>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img class="hero_img" src="images/logo_title1.PNG" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/hero_img2r.PNG" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/hero_img3.PNG" style="width:100%">
+        </div>
+    </div>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 5000); // Change image every 2 seconds
+        }
+    </script>
     <div class="body-area">
         <section class="imgsec1">
             <img class="reading_img1" src="images/bookimg2.PNG" alt="Book Image">
