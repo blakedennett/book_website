@@ -161,10 +161,20 @@ footer nav a {
 }
 
 
-/* both subage css */
+/* both subages css */
 
 .all_book_content {
     background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.all_book_content_nonfiction {
+    background-color: tan;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
 }
 
 .title_fiction {
@@ -183,6 +193,60 @@ footer nav a {
     grid-row: 1/4;
     grid-column: 1/2;
     color: black;
+}
+
+.book_rating, .author {
+    font-size: 18px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.book_content {
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+
+.book_section1 {
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.book_section2 {
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.book_section3 {
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.book_section4 {
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.book_section5 {
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.book_section6 {
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.book_section7 {
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.book_section8 {
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
 }
 
 /* about me css */ 
