@@ -43,7 +43,7 @@ nav {
 
 .hero_area {
     display: grid;
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     grid-template-columns: 1fr;
     margin: 0;
     padding: 0;
@@ -52,7 +52,7 @@ nav {
 .hero_img {
     width: 100%;
     height: 700px;
-    grid-row: 1/11;
+    grid-row: 1/9;
     grid-column: 1/2;
 }
 
@@ -143,7 +143,7 @@ footer p a:hover {
 footer {
     background-color: gray;
     color: black;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     padding: 25px 10px;
     display: flex;
     justify-content: space-around;
