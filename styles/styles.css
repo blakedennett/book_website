@@ -299,3 +299,15 @@ footer nav a {
 }
 
 /* about me css */ 
+
+.paragraph2 {
+    padding-bottom: 40px;
+}
+
+.title-section {
+    text-align: center;
+}
+
+.aboutmetitle {
+    font-size: 45px;
+}
